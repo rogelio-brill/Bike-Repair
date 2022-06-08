@@ -1,5 +1,11 @@
-body {
+html {
     background-image: linear-gradient(#fc5e55, #fa4083);
+}
+
+body {
+    background-image: url(images/image-lion-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 1.125rem;
@@ -30,6 +36,11 @@ main {
     min-height: 300px;
     display: flex;
     align-items: center;
+}
+
+.main2 {
+    min-height: 300px;
+    padding-top: 50px;
 }
 
 .cards {
@@ -182,4 +193,8 @@ nav a.myButton {
 
 .dropdown .navbutton a{
     color:#fa4083;
+}
+
+.inputwrapper {
+    margin-bottom: 20px;
 }

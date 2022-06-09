@@ -45,12 +45,12 @@
 
             <form action="mail.php" method="post">
                 <div class="inputwrapper">
-                    <label for="name">First Name</label>
+                    <label for="name" class="newline">First Name</label>
                     <input type="text" name="name" id="name" placeholder="First Name"/>
                 </div>
 
                 <div class="inputwrapper">
-                    <label for="email">Email</label>
+                    <label for="email" class="newline">Email</label>
                     <input type="email" name="email" id="email" placeholder="Email" />
                 </div>
 
@@ -65,12 +65,23 @@
 
                 <div class="inputwrapper">
                     <input type="radio" name="contact-pref" id="phone" value="Phone" />
-                    <label for="phone">Phone</label>
+                    <label for="phone" class="margin-right-a">Phone</label>
                     <input type="radio" name="contact-pref" id="email2" value="Email"/>
                     <label for="email2">Email</label>
                 </div>
 
-                <input type="submit" value="Enter" />
+                <div class="inputwrapper">
+
+                    <select name="county" id="county">
+                        <option value="Not-Chosen">Choose County</option>
+                        <option value="Limerick">Limerick</option>
+                        <option value="Dublin">Dublin</option>
+                        <option value="Galway">Galway</option>
+                    </select>
+
+                </div>
+
+                <input type="submit" value="Enter" class="mybutton"/>
 
             </form>
         </div>
